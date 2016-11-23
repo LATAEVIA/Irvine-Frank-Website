@@ -351,6 +351,8 @@ ul.breadcrumb li a:hover {
 @media (max-width: 480px) {
   .caption-classic h2 {
     line-height: 48px !important;
+    margin-bottom: 0px !important;
+    margin-top: 38px;
   }
 }
 
@@ -2285,6 +2287,9 @@ pre, code, var, kbd, samp, tt, dir, listing, plaintext, xmp, abbr, acronym, q {
 
 .hyper, .section-head h2, .caption-bordered h2, .caption-classic h2 {
   font-size: 150px;
+  line-height: 48px !important;
+  margin-bottom: 0px !important;
+  margin-top: 38px;
   line-height: 0.8;
 }
 

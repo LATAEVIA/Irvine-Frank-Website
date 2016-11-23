@@ -318,6 +318,9 @@ ul.breadcrumb {
 		}
 		@media (max-width: 480px) {
 			line-height: 48px !important;
+			line-height: 48px !important;
+			margin-bottom: 0px !important;
+			margin-top: 38px;
 		}
 	}
 	img {
@@ -517,8 +520,8 @@ ul.instagram-widget {
 }
 
 .text-block img.negative-margin {
-	margin-bottom:-200px; 
-	z-index:99; 
+	margin-bottom:-200px;
+	z-index:99;
 	position:relative;
 	@include transition(.5s);
 }
@@ -563,7 +566,7 @@ ul.instagram-widget {
 		opacity: 0;
 		@include transition(.2s);
 		-webkit-animation: fadeOutDown .2s;
-		animation: fadeOutDown .2s;	
+		animation: fadeOutDown .2s;
 		max-width: 90%;
 		margin-left: auto;
 		margin-right: auto;
@@ -583,7 +586,7 @@ ul.instagram-widget {
 			opacity: 1;
 			@include transition(.2s);
 			-webkit-animation: fadeInUp .2s;
-			animation: fadeInUp .2s;	
+			animation: fadeInUp .2s;
 		}
 	}
 }
@@ -728,8 +731,8 @@ b, u, i, center,
 dl, dt, dd, ol, ul, li,
 fieldset, form, label, legend,
 table, caption, tbody, tfoot, thead, tr, th, td,
-article, aside, canvas, details, embed, 
-figure, figcaption, footer, header, hgroup, 
+article, aside, canvas, details, embed,
+figure, figcaption, footer, header, hgroup,
 menu, nav, output, ruby, section, summary,
 time, mark, audio, video {
 	font: inherit;
