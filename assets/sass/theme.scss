@@ -1,15 +1,15 @@
-/* 
-======================================================================== 
+/*
+========================================================================
 
 AVOIR: theme.css
 Main Theme CSS file
 
-@Author: Andrew ch 
+@Author: Andrew ch
 @URL: http://andrewch.eu
- 
+
 This is the file you need to edit to change the look of the theme.
 
-======================================================================== 
+========================================================================
 
 - // TABLE OF CONTENTS // -
 
@@ -42,7 +42,13 @@ This is the file you need to edit to change the look of the theme.
 
 //  Components
 @import "theme/componets";
-
+// @media (max-width: 480px) {
+//   .caption-classic h2 {
+//     padding: 24px 24px 0 24px;
+//     margin-bottom: 0px !important;
+//     margin-top: 38px;
+//   }
+// }
  //  Header
 @import "theme/header";
 
