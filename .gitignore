@@ -4,3 +4,19 @@ assets/fonts/revicons/_notes/dwsync.xml
 *.xml
 
 *.xml
+
+phpmailer/phpmailer/extras/_notes/.DS_Store
+
+_notes/.DS_Store
+
+*.xml
+
+assets/_notes/.DS_Store
+
+assets/css/_notes/.DS_Store
+
+assets/fonts/_notes/.DS_Store
+
+*.xml
+
+_notes/
