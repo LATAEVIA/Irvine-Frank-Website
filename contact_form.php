@@ -12,18 +12,18 @@ $mail->IsSMTP();                                      // Set mailer to use SMTP
 //     AOL      => smtp.aol.com
 $mail->Host = 'smtp.gmail.com';                       // Specify main and backup server
 $mail->SMTPAuth = true;                               // Enable SMTP authentication
-//This is the email that you need to set so PHPMailer will send the email from 
-$mail->Username = 'some_email@email.com';             // SMTP username
-$mail->Password = 'secret';                           // SMTP password
+//This is the email that you need to set so PHPMailer will send the email from
+$mail->Username = 'irvinefranksolutions@gmail.com';             // SMTP username
+$mail->Password = 'pine538592Cafe!';                           // SMTP password
 $mail->SMTPSecure = 'tls';
 $mail->Port = 587;                                    // TCP port to connect to
 // Add the address to send the mail to
-$mail->AddAddress('some_email@email.com');
+$mail->AddAddress('youre@majorfourth.com');
 $mail->WordWrap = 50;                                 // Set word wrap to 50 characters
 $mail->IsHTML(true);                                  // Set email format to HTML
 
 // add your company name here
-$company_name = 'your_company';
+$company_name = 'Irvine Frank';
 
 // choose which fields you would like to be validated separated by |
 // options required - check input has content valid_email - check for valid email
@@ -94,13 +94,13 @@ if (!empty($fields)) {
         $mail->FromName = stripslashes(safe($fields['name']));
         $mail->Subject = '[' . $company_name . ']';
         $content = $email . " sent you a message from your contact form:<br><br>";
-        $content .= "-------<br>" . $body . "<br><br><br><br>Email: " . $email;      
+        $content .= "-------<br>" . $body . "<br><br><br><br>Email: " . $email;
         $mail->Body = $content;
 
         if(@$mail->Send()) {
             $returnVal->messages[] = $success_message;
             $returnVal->status = 'ok';
-        } else {            
+        } else {
             $mail_error_message->message .= '<br> <small>' . $mail->ErrorInfo . '</small>';
             $returnVal->messages[] = $mail_error_message;
         }
