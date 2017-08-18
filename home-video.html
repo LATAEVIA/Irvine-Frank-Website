@@ -284,11 +284,11 @@
                   return re.test(email);
               }
               function postSubscriptionToGoogle(){
-                  var email = $j('#subscribe_email').val();
+                  var email = $('#subscribe_email').val();
                   if ((email !== "") && (validateEmail(email))){
                       $j.ajax({
                           url: "https://docs.google.com/forms/d/e/1FAIpQLSflHAOOgJAsLPdes8N_wdbmALOgbeEqq6NDQitG7m4i2GmZew/formRespons",
-                          data: {"entry.1" : email},
+                          data: {"entry.371138634" : email},
                           type: "POST",
                           dataType: "xml",
                           statusCode: {
