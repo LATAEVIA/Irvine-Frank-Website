@@ -10,6 +10,6 @@ $message = $_POST['message'];
 if(iconv_strlen($message) < 10){echo '<div class="alert error">Please enter your message. It should have at least 10 characters.</div>';exit();}
 
 $headers = "From: $name <$email>\r\n";
-mail('hello@lataeviaberry.com', $subject, 'Name:'.$name."\n\nMessage:".$message, $headers);
+mail('hello@irvinefrank.com', $subject, 'Name:'.$name."\n\nMessage:".$message, $headers);
 echo "1";
 ?>
